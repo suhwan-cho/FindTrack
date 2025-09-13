@@ -1,0 +1,34 @@
+# default settings
+defaults:
+  - _self_
+  - model: base
+exp_id: default
+amp: False
+weights: output/cutie-base-mega.pth
+flip_aug: True
+max_internal_size: 600
+
+# core parameters
+use_long_term: True
+mem_every: 3
+
+# only relevant when long_term is not enabled
+max_mem_frames: 10
+
+# only relevant when long_term is enabled
+long_term:
+  count_usage: True
+  max_mem_frames: 10
+  min_mem_frames: 5
+  num_prototypes: 128
+  max_num_tokens: 10000
+  buffer_tokens: 2000
+
+# others
+top_k: 30
+stagger_updates: 5
+save_all: True
+chunk_size: -1
+save_scores: False
+save_aux: False
+visualize: False
