@@ -4,7 +4,7 @@ This is the official PyTorch implementation of our paper:
 
 > **Find First, Track Next: Decoupling Identification and Propagation in Referring Video Object Segmentation**, *ICCVW 2025*\
 > Suhwan Cho*, Seunghoon Lee*, Minhyeok Lee, Jungho Lee, Sangyoun Lee\
-> Link: [[arXiv]](https://arxiv.org/abs/2503.03492)
+> Link: [[ICCVW]](https://openaccess.thecvf.com/content/ICCV2025W/LSVOS/papers/Cho_Find_First_Track_Next_Decoupling_Identification_and_Propagation_in_Referring_ICCVW_2025_paper.pdf) [[arXiv]](https://arxiv.org/abs/2503.03492)
 
 <img src="https://github.com/user-attachments/assets/a57cd78a-6f34-4fa7-bddc-762e5e90a71b" width=800>
 
